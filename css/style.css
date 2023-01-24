@@ -1,0 +1,216 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap');
+
+/* Custom Font EB Garamound */
+.font-garamond {
+	font-family: 'EB Garamond', serif;
+}
+
+/* Custom Font Poppins */
+.font-poppins {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Height */
+.h-custom-285 {
+	height: 285px;
+}
+
+.h-custom-500 {
+	height: 500px;
+}
+
+/* Custom Width */
+.w-custom-285 {
+	width: 285px;
+}
+
+.mw-custom-680 {
+	max-width: 680px;
+}
+
+.mw-custom-720 {
+	max-width: 720px;
+}
+
+/* Custom Margin */
+.my-custom-30 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.mt-custom-60 {
+	margin-top: 60px;
+}
+
+.mt-custom-120 {
+	margin-top: 120px;
+}
+
+/* Custom Padding */
+.mx-custom-72 {
+	padding: 0 72px;
+}
+
+/* Custom Font Size */
+.fs-custom-1 {
+	font-size: 4.5rem;
+}
+
+/* Custom Text Color */
+.text-custom-black {
+	color: #414040;
+}
+
+.text-custom-light-black {
+	color: #707070;
+}
+
+.text-custom-light {
+	color: #CFCFCF;
+}
+
+.text-custom-light-gray {
+	color: #E7E7E7;
+}
+
+.text-custom-light-white {
+	color: #F3F3F3;
+}
+
+/* Custom Border */
+.border-custom-right {
+	border-right: 1px solid #E7E7E7;
+}
+
+.border-custom-bottom {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+/* Primary Button Custom Color*/
+.primary-btn-custom-color {
+	background-color: #B68C5A;
+	border: 1px solid #B68C5A;
+}
+
+/* Primary Button Hover/Focus/Active Custom Color */
+.primary-btn-custom-color:is(:hover, :focus, :focus-visible, :active) {
+	background-color: #af824b !important;
+	border: 1px solid #af824b !important;
+}
+
+/* Banner Section */
+.custom-banner-bg {
+	height: 550px;
+	background-image: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* The Legal Practice Area Section */
+.custom-legal-bg {
+	background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+/* What Our Client Say Section  */
+.img-custom-bg {
+	max-height: 500px;
+  position: relative;
+}
+
+.img-custom-bg::after {
+  content: '';
+  position: absolute;
+  left: 0; 
+	top: 0;
+  width: 100%;
+	height: 100%;
+	border-radius: 0.5rem;
+  background: rgba(17, 17, 17, 0.8);
+}
+
+.img-custom-bg > img {
+	max-height: 500px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.carousel-caption {
+	bottom: 2rem;
+}
+
+.client-image {
+	border: 2px solid white;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+}
+
+/* Frequently Asked Any Questions Section */
+.accordion-custom-bg {
+	background-color: #F3F3F3;
+}
+
+.accordion-item {
+	border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
+	margin-bottom: 1.5rem;
+}
+
+/* Contact With Us Section */
+.custom-contact-us-bg {
+	background: #F3F3F3;
+}
+
+.custom-contact-us-bg > img {
+	width: 40px;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #111111;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 575px) {
+
+	/* Responsive Custom Font Size */
+	.fs-custom-1 {
+		font-size: 3rem;
+	}
+
+	/* Custom Border */
+	.border-custom {
+		border: 1px solid #E7E7E7;
+	}
+
+	.border-custom:not(:last-child) {
+		border-bottom: none;
+	}
+
+	/* What Our Client Say Section  */
+	.carousel-caption {
+		bottom: 1.25rem;
+	}
+
+	.carousel-caption > img {
+		visibility: hidden;
+	}
+	
+	.carousel-caption > h4 {
+		font-size: 20px;
+	}
+	
+	.carousel-caption > h5 {
+		font-size: 16px;
+	}
+	
+	.carousel-caption > p {
+		font-size: 12px;
+	}
+
+	/* Contact With Us Section */
+	.w-custom-285 {
+    width: 100%;
+	}
+}
